@@ -23,6 +23,6 @@ const notas = [
 ];
 
 module.exports = app => {
-
-    app.get('/notas', (req, res) => res.json(notas));
+    
+    app.get('/notas', (req, res) => res.send(notas));
 }
