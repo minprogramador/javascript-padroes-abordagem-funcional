@@ -1,6 +1,7 @@
 
-# Projeto
-## Buscando notas fiscais por API com js.
+
+## Projeto
+### Buscando notas fiscais por API com js.
 
 ## Requesitos.
 
@@ -21,6 +22,19 @@ Server is running at http://localhost:3000
 ```
 
 ---
+
+## Sobre
+`Utilizando ES6 nativo no chrome.`
+
+Exercitando:
+- Promises
+- map
+- filter
+- reduce
+
+
+---
+
 
 ### Organizando o codigo em modulos do es6
 Usando modulo nativo do chrome.
