@@ -29,8 +29,19 @@ Server is running at http://localhost:3000
 Exercitando:
 - Promises
 - map
-- filter
-- reduce
+
+
+__Filter__
+-
+_Filtrar itens por determinado codigo_
+
+__FlatMap__
+-
+_Obter uma lista de itens das notas, em uma unica dimensão._
+
+__Reduce__
+-
+_Totalizar o valor dos itens._
 
 
 ---
@@ -41,6 +52,7 @@ Usando modulo nativo do chrome.
 
 #### Carregar modulos nativamente no navegador.
 Usar a tag `<script type="modyle" src="">`
+
 
 
 
