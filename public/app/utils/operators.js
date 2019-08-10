@@ -6,8 +6,12 @@ export const compose = (...fns) => value =>
     fns.reduceRight( (previousValue, fn) => 
         fn(previousValue), value )
 
-export const pipe = (...fns) => value => 
-fns.reduce( (previousValue, fn) => 
-    fn(previousValue), value )
+export const pipe = (...fns) => value => {
+    return fns.reduce( (previousValue, fn) => fn(previousValue), value )
+};
 
-    
+export const takeUntil = (times, fn) => {
+    return () => {
+        if(times-- > 0) fn();
+    }
+}

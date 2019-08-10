@@ -22,8 +22,6 @@ export const notasService = {
 
         const filtroItens = partialize(filtraItensPorCodigo, code);
         
-        //const sumItens = compose(totalItens, filtroItens, getItensPorNotas);
-
         const sumItens = pipe(getItensPorNotas,
             filtroItens,
             totalItens
@@ -31,15 +29,6 @@ export const notasService = {
 
         return this.listAll()
             .then(sumItens);
-
-        // return this.listAll()
-        //     .then( notas => {
-        //         return totalItens(
-        //             filtroItens(
-        //                 getItensPorNotas(notas)
-        //             )
-        //         )
-        //     });
     }
 
 };
