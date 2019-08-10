@@ -1,0 +1,1 @@
+# javascript-padroes-abordagem-funcional
